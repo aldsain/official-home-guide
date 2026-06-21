@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于乐鱼体育 · 简明导览</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f7f6f4;
+      color: #2c2b28;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      padding: 2.8rem 1.2rem 4rem;
+    }
+    .page {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    /* 标题层级：清晰、克制 */
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.6rem;
+      color: #1f1e1b;
+      line-height: 1.2;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 480;
+      margin-top: 2.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #d8d6d2;
+      padding-bottom: 0.4rem;
+      color: #2c2b28;
+    }
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 470;
+      margin-top: 1.6rem;
+      margin-bottom: 0.5rem;
+      color: #3e3c37;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.05rem;
+      color: #3a3935;
+    }
+    .hero {
+      margin-bottom: 2.4rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #55534e;
+    }
+    /* 卡片风格：极简，微阴影，窄内边距 */
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 1.6rem 1.8rem;
+      margin: 1.8rem 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03), 0 1px 2px rgba(0,0,0,0.02);
+    }
+    .card p:last-child { margin-bottom: 0; }
+    /* 亮点列表：无标记，留白干净 */
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 1.2rem;
+    }
+    .feature-list li {
+      padding: 0.3rem 0;
+      display: flex;
+      gap: 0.6rem;
+      align-items: baseline;
+    }
+    .feature-list li::before {
+      content: "—";
+      color: #a5a29b;
+      font-weight: 300;
+    }
+    /* 内联链接：自然融入句子，不额外突出 */
+    a {
+      color: #2c5f2d;
+      text-decoration: none;
+      border-bottom: 1px solid #c3d2b8;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    a:hover {
+      border-bottom-color: #2c5f2d;
+      color: #1f4a1f;
+    }
+    .faq-item {
+      margin-bottom: 1.2rem;
+    }
+    .faq-item strong {
+      font-weight: 520;
+      display: block;
+      margin-bottom: 0.2rem;
+      color: #2c2b28;
+    }
+    .faq-item p {
+      margin-left: 0.2rem;
+      font-size: 0.98rem;
+      color: #4d4b46;
+    }
+    .note {
+      background: #efede7;
+      border-left: 3px solid #b7b2a9;
+      padding: 1rem 1.4rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.4rem 0;
+    }
+    .note p {
+      font-size: 0.98rem;
+      margin-bottom: 0;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #e1dfda;
+      margin: 2.4rem 0 1.6rem;
+    }
+    .footer-meta {
+      font-size: 0.85rem;
+      color: #8f8b84;
+      margin-top: 2.8rem;
+      text-align: left;
+    }
+    @media (max-width: 480px) {
+      body { padding: 1.8rem 1rem 3rem; }
+      h1 { font-size: 1.9rem; }
+      h2 { font-size: 1.3rem; margin-top: 2.2rem; }
+      .card { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="hero">
+    <h1>乐鱼体育 · 从使用到日常</h1>
+    <p>一份克制的产品说明与指南。不渲染，不夸张，只讲你真正需要了解的。</p>
+  </div>
+
+  <!-- 摘要：简明定位 -->
+  <p>
+    <a href="https://official-home-leyu.com.cn">乐鱼体育</a> 是一个围绕体育赛事与互动体验展开的平台。它的界面逻辑比较直接，功能分区也清晰。如果你打算尝试或已经在使用，下面这份摘要和提醒或许能帮你更快地找到自己的节奏。
+  </p>
+
+  <!-- 亮点：克制列点，不用图标 -->
+  <h2>几个值得留意的特点</h2>
+  <div class="card">
+    <ul class="feature-list">
+      <li>赛事覆盖面较广，主流联赛与部分小众项目都有呈现。</li>
+      <li>信息结构偏向列表式，没有过度嵌套的菜单，查找特定场次比较顺手。</li>
+      <li>页面响应速度尚可，日常使用中很少遇到加载卡顿。</li>
+      <li>支持多种视角切换，可以按自己的习惯调整显示方式。</li>
+    </ul>
+    <p style="margin-bottom:0; font-size:0.98rem; color:#5e5b55;">——以上基于常规使用体验，实际感受可能因设备和网络环境略有差异。</p>
+  </div>
+
+  <!-- 使用建议：场景化叙述 -->
+  <h2>使用建议 · 三个常见场景</h2>
+
+  <h3>想快速浏览当日赛程</h3>
+  <p>进入 <a href="https://official-home-leyu.com.cn">乐鱼体育</a> 后，首页默认会列出进行中和即将开始的赛事。你不需要额外筛选，一眼就能看到时间、对阵和状态。如果只想关注特定联赛，可以留意页面顶部的分类标签，点击即可缩小范围。</p>
+
+  <h3>需要回顾历史数据或结果</h3>
+  <p>大部分完成的比赛都会保留简明的统计摘要。在赛事详情页里，你能找到比分、关键事件以及基础数据。这部分内容比较实在，没有太多装饰，适合快速查阅。</p>
+
+  <h3>日常轻度使用</h3>
+  <p>如果你是偶尔打开看看比分或赛况，建议把常用联赛或队伍加入关注（如果平台提供此功能）。这样不必每次重新搜索，节省一点时间。另外，移动端浏览器下的自适应布局做得不错，竖屏和横屏阅读体验差别不大。</p>
+
+  <!-- 可信但克制的访问说明 + 自然嵌入链接 -->
+  <h2>访问说明 · 一些实在的提醒</h2>
+  <div class="note">
+    <p>使用任何在线服务前，建议确认自己的网络环境与账户安全。通过官方域访问 <a href="https://official-home-leyu.com.cn">乐鱼体育</a> 是可靠的方式，避免使用来源不明的第三方入口。同时，留意浏览器地址栏的域名拼写，防止误入仿冒站点。平台本身不需要额外插件或特殊配置，普通浏览器即可完整运行。</p>
+  </div>
+
+  <!-- FAQ 摘要：简短三问 -->
+  <h2>FAQ 摘要</h2>
+  <div class="faq-item">
+    <strong>是否需要注册才能使用？</strong>
+    <p>浏览赛程、查看比分等基础内容无需登录。部分个性化功能（如关注、历史记录）可能需要简单注册，流程比较常规。</p>
+  </div>
+  <div class="faq-item">
+    <strong>数据更新频率如何？</strong>
+    <p>通常实时赛事会在几秒内刷新，已完结比赛的结果会很快归档。偶尔在特殊场次或数据源延迟时可能有几分钟滞后。</p>
+  </div>
+  <div class="faq-item">
+    <strong>是否支持多语言？</strong>
+    <p>平台界面以中文为主，核心内容也采用中文描述。其他语言的支持情况有限，建议中文用户直接使用。</p>
+  </div>
+
+  <hr>
+  <div class="footer-meta">
+    <p>本页为独立产品说明，内容基于公开观察与常规使用经验。不构成任何形式的使用保证或诱导。实际功能以 <a href="https://official-home-leyu.com.cn">乐鱼体育</a> 最新版本为准。</p>
+  </div>
+
+</div>
+</body>
+</html>
